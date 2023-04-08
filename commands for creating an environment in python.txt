@@ -1,0 +1,24 @@
+pip install - скачать пакет
+
+pip install virtualenv
+pip install virtualenvwrapper-win
+
+mkvirtualenv labs - создать среду labs
+
+
+workon - все среды
+workon labs - открыть среду labs
+deactivate - выйти из среды
+
+-----------------------------
+ПО ВИДОСУ:
+создаем папку labs (допустим)
+открываем в vs code
+запускаем терминал:
+python -m venv venv 	-- создание виртуальной среды с названием venv
+venv\Scripts\activate		-- активируем вс
+python -m pip install -r requirements.txt	-- скачиваем библиотеки из документа
+
+если нужно удалить:
+deactivate
+просто удалить // Rmvirtualenv
